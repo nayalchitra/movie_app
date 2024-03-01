@@ -42,7 +42,7 @@ header{
     border-radius: 5px;
     padding: 15px;
     margin: 25px;
-    color: aliceblue;
+    color: beige;
 }
 .star-color-filled{
     color: yellow;
@@ -76,7 +76,7 @@ header{
     background-color: var(--bg-color);
     width: 20rem;
     padding: 8px;
-    color: aliceblue;
+    color: beige;
     outline: none;
     border-color: var(--card-bg);
     margin-right: 8rem;
@@ -87,7 +87,7 @@ header{
     transition:scale 0.5s;
 }
 .value-rating, .genre-filter{
-    color:aliceblue;
+    color:beige;
     background-color: var(--bg-color);
     padding: 8px;
     border-radius: 4px;
