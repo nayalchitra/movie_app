@@ -92,6 +92,8 @@ header{
     padding: 8px;
     border-radius: 4px;
     margin-right: 20px;
+    border-color: var(--card-bg);
+    outline: none;
 }
 
 .filter-container{
