@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie app</title>
+    <meta name="author" content="chitra">
+    <meta name="description" content="top IMDB rated movies">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1 class="heading-1">
+                Movie App
+        </h1>
+        <div class="search-conatiner">
+            <input type="text" placeholder="search movies" class="input"/>
+        </div>
+        
+        <div class="filter-container">
+            <div class="rating-filter-container">
+                <select name="value-rating" class="value-rating">
+                    <option value="">---rating---</option>
+                    <option value="6">6 & above</option>
+                    <option value="7">7 & above</option>
+                    <option value="8">8 & above</option>
+                    <option value="8.2">8.2 & above</option>
+                    <option value="8.5">8.5 & above</option>
+                    <option value="8.7">8.7 & above</option>
+                    <option value="9">9 & above</option>
+                    <option value="10">10</option>
+                    
+                </select>
+            </div>
+            <div class="genre-filter-container">
+                <select name="genre-filter" class="genre-filter">
+                    
+                </select>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+   
+    </main>
+    <footer class="footer">
+        <h5 class="author">Made with 💓 Chitra Nayal</h5>
+    </footer>
+    <script  type="module"  src="./index.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+</body>
+</html>
